@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<>, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+
+    nav {
+      background: #333;
+      padding: 10px;
+  }
+  nav button {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+  }
+  .dropdown {
+      display: none;
+      background: #555
+  }
+  .dropdown.show {
+      display: block;
+  }
+  .dropdown a {
+      color: white;
+      padding: 10px;
+      display:block block;
+      text-decoration: none;
+  }
+  .dropdown a:hover {
+      background: #555;
+  }
+  .rotated-dropdown {
+    transform: rotate(90deg);
+    transform-origin: left top;
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+  }
+
+</style>
+<body>
+  <nav>
+      <!--https://www.w3schools.com/charsets/ref_utf_geometric.asp-->
+      <button onclick="toggleMenu()">Menu &#9662;</button>
+       <div class="dropdown-show" id="menu">
+          <a href="#">Home</a>
+          <a href="#">Page 1</a>
+          <a href="#">Page 2</a>
+          <a href="#">Page 3</a>
+      </div>
+  </nav>
+
+  <!--Scripts are often in the <head> </head> or just before the closing body tag. 
+  Putting at the bottom helps ensure that the script runs after the DOM (think "page") is loaded.-->
+<script>
+  function toggleMenu() {
+      //https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+      //https:
+  }
+</script>
+</body>
+</html>
