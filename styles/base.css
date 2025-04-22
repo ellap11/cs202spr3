@@ -57,5 +57,5 @@ a {
   display: block;
 }
 body {
-  background: image"assets/IMG_9517.jpg"
+  background: no-repeat url(...assets/background.jpg)
 }
