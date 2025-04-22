@@ -1,78 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ella Kaye Photography</title>
-    <style>
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        font-family: serif;
-        height: 100%;
-      }
-      .container {
-        position: relative;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        color: white;
-        text-align: center;
-      }
-      .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        background: rgba(red, green, blue, alpha);
-      }
-      .menu-icon {
-        font-size: 24px;
-        cursor: pointer;
-        color: black;
-      }
-      .title {
-        font-size: 24px;
-        letter-spacing: 2px;
-        color: black;
-      }
-      .social {
-        font-size: 24px;
-        cursor: pointer;
-      }
-      .button {
-        background: white;
-        color: black;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 5px;
-        margin: 20px;
-        display: inline-block;
-      }
-      .footer {
-        background: rgba;
-        padding: 10px;
-        color: black;
-      }
-      .menu-icon {
-        display: flex;
-        cursor: pointer;
-      }
-      a {
-        display: block;
-      }
-    
-    </style>
+    <link rel="stylesheet" href="styles/base.css">
   </head>
   <body>
     <div class="container">
-      <!--Header-->
-      <div class="header">
-        
-        <nav>
-          <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      <header>
+        <nav class="menu-icon" onclick="toggleMenu()"><span>&#9776;</span>
           <div class="dropdown" id="menu">
             <a href="index.html">Home</a>
             <a href="pages/portfolio.html">Portfolio</a>
@@ -84,12 +21,12 @@
           </div>
         </nav>
         <div class="title">
-          ELLA KAYE <br />
+          ELLA KAYE <br>
           PHOTOGRAPHY
         </div>
         <div class="social">&#x1F465;</div>
         <!--Replace with Instagram Icon-->
-      </div>
+      </header>
 
       <!--Button-->
       <div>
@@ -97,11 +34,11 @@
       </div>
 
       <!--Footer-->
-      <div class="footer">
-        ELLA KAYE <br />
-        PHOTOGRAPHY <br />
+      <footer>
+        ELLA KAYE <br>
+        PHOTOGRAPHY <br>
         EMAIL: ellapethel@icloud.com
-      </div>
+      </footer>
     </div>
 
   </body>
