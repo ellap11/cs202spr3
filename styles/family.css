@@ -1,0 +1,7 @@
+.dropdown { 
+    display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+  }
+  .dropdown.show {
+    display: block;
+  }
