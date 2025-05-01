@@ -1,7 +1,19 @@
-.dropdown { 
-    display: none;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: whitesmoke;
   }
-  .dropdown.show {
-    display: block;
+  .social {
+    font-size: 24px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+  }
+  footer {
+    background: whitesmoke;
+    padding: 10px;
+    color: black;
+    text-align: center;
   }

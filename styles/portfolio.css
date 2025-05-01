@@ -5,3 +5,20 @@ header {
   padding: 20px;
   background: whitesmoke;
 }
+body {
+  align-items: center;
+  height:100%;
+  width: 100%;
+}
+.social {
+  font-size: 24px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+footer {
+  background: whitesmoke;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
