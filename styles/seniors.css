@@ -1,9 +1,28 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  font-family: serif;
-  height: 100%;
+img {
+ height: 100%;
+ width: 100%;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+body { 
+  font-family: serif
+}
+nav{
+  display: none;
+}
+.dropdown { 
+  display:block;
+  font-family: serif; 
+}
+.dropdown.show {
+  display: block;
 }
 header {
   display: flex;
@@ -27,12 +46,6 @@ header {
   font-size: 24px;
   cursor: pointer;
 }
-footer {
-  background: whitesmoke;
-  padding: 10px;
-  color: black;
-  text-align: center;
-}
 .menu-icon {
   display: flex;
   cursor: pointer;
@@ -40,17 +53,6 @@ footer {
 a {
   display: block;
 }
-img{
-  width: 100%;
-  align-items: center;
-}
-nav{
-  display: none;
-}
-.dropdown { 
-  display: none;
-  font-family:'Times New Roman', Times, serif; 
-}
-.dropdown.show {
-  display: block;
+html, body {
+  font-family: serif;
 }

@@ -4,19 +4,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Seniors</title>
-</head>
+    <link rel="stylesheet" href="../styles/seniors.css">
+    <header>
+      <nav class="menu-icon" onclick="toggleMenu()"><span>&#9776;</span>
+        <div class="dropdown" id="menu">
+          <a href="../index.html">Home</a>
+          <a href="../pages/portfolio.html">Portfolio</a>
+          <a href="../pages/seniors.html">Seniors</a>
+          <a href="../pages/weddings.html">Weddings</a>
+          <a href="../pages/family.html">Family</a>
+        </div>
+      </nav>
+      <div class="title">
+        ELLA KAYE <br>
+        PHOTOGRAPHY
+      </div>
+      <div class="social"><img src="/assets/instagramicon.jpg"></div>
+      <!--Replace with Instagram Icon-->
+    </header>
 <body>
-  <nav>
-    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
-    <div class="dropdown" id="menu">
-      <a href="index.html">Home</a>
-      <a href="../pages/portfolio.html">Portfolio</a>
-      <a href="../pages/seniors.html">Seniors</a>
-      <a href="../pages/weddings.html">Weddings</a>
-      <a href="../pages/portraits.html">Portraits</a>
-      <a href="../pages/family.html">Family</a>
-      <a href="../pages/bookings.html">Bookings</a>
-    </div>
-  </nav>
+  <img src="../assets/gracie 11.jpg">
+  <h1>
+    Senior Sessions
+  </h1>
+  <h2>
+    Half Sessions
+  </h2>
+  <div>
+    <p1>1 hour session -> time may vary depending on location, up to 2 outfit changes, 30 photos, digital rights to photos, priced at $225. </p1>
+  </div>
+  <h2>Full Sessions</h2>
+  <div>
+    <p2>2 hour session -> time may vary depending on location, up to 4 outfit changes, 75 photos, digital rights to photos, priced at $450. </p2>
+  </div>
+  <h2>Deluxe Package</h2>
+  <div>
+    <p3>2-3 hour session -> time may vary depending on locations, up to 5 outfits, 120 photos, digital rights to photos, priced at $750
+    </p3>
+  </div>
 </body>
+<img src="../assets/gracie 1.jpg">
+<script>
+  function toggleMenu() {
+    document.getElementById("menu").classList.toggle("show");
+  }
+</script>
 </html>
